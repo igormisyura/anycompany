@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "reactamplifiedb4b07d5a_identitypool_b4b07d5a",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "reactab4b07d5a",
+    "userPoolName": "reactamplifiedb4b07d5a_userpool_b4b07d5a",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "reactab4b07d5a_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "b4b07d5a",
+    "resourceName": "reactamplifiedb4b07d5a",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "useEnabledMfas": false
+  }
+}
